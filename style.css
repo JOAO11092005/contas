@@ -67,3 +67,57 @@ main .youtube{
     padding: 60px;
     
 }
+
+
+@media (max-width: 868px){
+   main{
+    display: block;
+   }
+}
+main .tudo{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 80px;
+}
+main .tudo p{
+    color: rgba(255, 255, 255, 0.801);
+}
+main section{
+    background-color: rgba(20, 20, 20, 0.411);
+    padding: 10px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+/* main section:hover{
+    padding: 40px;
+    transition: 0.5s;
+} */
+main section a{
+    color: white;
+    border-radius: 10px;
+    background-color: rgb(58, 55, 55);
+    padding: 10px;
+    transition: 0.5s;
+    
+    
+}
+main section a:hover{
+    padding: 20px;
+    transition: 0.5s;
+}
+main .outros-menbros .menbros{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    
+}
+main .youtube{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 5px;
+    
+}
+}
