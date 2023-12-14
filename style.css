@@ -10,7 +10,7 @@ a{
     font-size: 20px;
 }
 body{
-    background: url(https://tracklist.com.br/wp-content/uploads/2021/08/CapaPost.png) center center no-repeat;
+    background: url(https://vlzstore.com.br/cdn/shop/files/fundo1_10_-min.jpg?v=1685306962&width=3840) center center no-repeat;
     background-size: cover;
 }
 main{
@@ -72,6 +72,9 @@ main .youtube{
 @media (max-width: 868px){
    main{
     display: block;
+   }
+   body{
+    background: url(https://vlzstore.com.br/cdn/shop/collections/IMG_1954-min_12.png?v=1685659884&width=1500) center center no-repeat;
    }
 }
 main .tudo{
